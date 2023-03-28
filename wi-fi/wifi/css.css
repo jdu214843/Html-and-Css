@@ -1,0 +1,93 @@
+*{
+	margin: 0;
+	padding:0;
+	box-sizing: border-box;
+}
+
+body{
+	background: #eee;
+}
+.container{
+	width: 1140px;
+	height: 100vh;
+	background: grey;
+	margin: 0 auto;
+}
+.parent{
+	padding-top: 100px;
+}
+.box{
+	width: 700px;
+	height: 700px;
+	background: transparent;
+	margin: 0 auto;
+	border-radius: 50%;
+	position: relative;
+	top: 150px;
+	border-top: 50px solid transparent;
+	border-left: 50px solid transparent;
+	border-right: 50px solid transparent;
+	border-bottom: 50px solid transparent;
+	animation-name:wi-fi;
+	animation-delay: 1s;
+	animation-duration: 3s;
+	animation-iteration-count: infinite;
+}
+
+.box1{
+	width: 500px;
+	height: 500px;
+	background: transparent;
+	margin: 0 auto;
+	position: absolute;
+	border-top: 50px solid transparent;
+	border-left: 50px solid transparent;
+	border-right: 50px solid transparent;
+	border-bottom: 50px solid transparent;
+	top: 50px;
+	left: 50px;
+	border-radius: 50%;
+	padding-top: 10px;
+	animation-name:wi-fi;
+	animation-delay: .6s;
+	animation-duration: 3s;
+	animation-iteration-count: infinite;
+}
+
+.box2{
+	width: 300px;
+	height: 300px;
+	background: transparent;
+	margin: 0 auto;
+	top: 50px;
+	left: 50px;
+	position: absolute;
+	border-radius: 50%;
+	border-top: 50px solid transparent;
+	border-left: 50px solid transparent;
+	border-right: 50px solid transparent;
+	border-bottom: 50px solid transparent;
+	animation-name:wi-fi;
+	animation-delay: .1s;
+	animation-duration: 3s;
+	animation-iteration-count: infinite;
+}
+@keyframes wi-fi{
+	0%{border-top-color: #eee;}
+	100%{border-top-color: grey;}
+}
+.box4{
+	width: 100px;
+	height: 100px;
+	background: transparent;
+	margin: 0 auto;
+	position: absolute;
+	top: 50px;
+	left:50px ;
+	border-radius: 50%;
+	border-radius: 50%;
+	border-top: 50px solid #fff;
+	border-left: 50px solid transparent;
+	border-right: 50px solid transparent;
+	border-bottom: 50px solid transparent;
+}

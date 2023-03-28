@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Contact</title>
+        <link rel="stylesheet" href="contact.css">
+    </head>
+
+    <body>
+
+        
+        <header class="main-header">
+            <div class="container">
+                <div class="header-brand">
+                    <a href="https://www.youtube.com" class="logo">
+                        <div class="rating">ASILBEK</div>
+                    </a>
+                    </div>
+                        <nav class="main-navigation">
+                            <ul class="main-navigation_bar">
+                                <li class="main-navigation_bar active">
+                                    <a href="index.html">Asosiy</a>
+                                </li>
+                                    <li class="main-navigation_bar" id="about-me">
+                                        <a href="https://www">Men haqimda</a>
+                                    </li>
+                                        <li class="main-navigation_bar">
+                                            <a href="#">Xizmatlarim</a>
+                                        </li>
+                                            <li class="main-navigation_bar">
+                                                <a href="#">Mijozlarim</a>
+                                            </li>
+                                        <li class="main-navigation_bar">
+                                            <a href="#">Portfolio</a>
+                                        </li>
+                                    <li class="main-navigation_bar">
+                                        <a href="#">Blog</a>
+                                    </li>
+                                <li class="main-navigation_bar">
+                                    <a href="#">Sheriklar</a>
+                                </li>
+                            </ul>
+                        </nav>
+                    
+                </div>
+            </header>
+      
+        <div class="container" >
+            <div class="header__img">
+                <img src="./images/logotip-youtube.jpeg" alt="youtube.com" class="header__item__img">
+            </div>
+
+            <section class="contact__item">
+                <div class="contact__subtitle">
+                    <h2>Aloqa qilish</h2>
+                </div>
+                <form action="/server.php" method="GET">
+                    <textarea class="textarea" placeholder="matn yozing..." rows="10" name="message"></textarea>
+                     <div class="half__row contact__firtsname">
+                        <input type="text" name="firstname" class="name" placeholder="Ismingizni yozing">
+                    </div>
+                        <div class="half__row contact__email">
+                            <input type="email" name="email" class="email" placeholder="Emailingizni yozing">
+                        </div>
+                     <input type="text" name="subject" class="subject" placeholder="So'rov mazmuni..">
+                     <button name="subject" class="button">Yuborish</button>
+                </form>
+                
+            </section>
+            
+        </div>
+    </body>
+</html>
